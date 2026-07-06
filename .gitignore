@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables
+.env
+.env.*
+
+# Model weights & checkpoints
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.gguf
+checkpoints/
+runs/
+outputs/
+outputs3/
+lora_model/
+invoice_model_3/
+invoice_model_merged_3/
+same_prompt_model/
+same_prompt_model_merged/
+unsloth_compiled_cache/
+
+# Project specific
+Final_data/
+temp_uploads/
+test_data/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Database
+*.db
+*.sqlite3

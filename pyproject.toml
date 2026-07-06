@@ -1,0 +1,18 @@
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "B", "UP", "I", "W", "C4"]
+ignore = ["E501", "D101", "D100"]
+
+[tool.ruff.format]
+quote-style = "single"
+indent-style = "space"
+docstring-code-format = true
+line-ending = "lf"
+preview = true
+
+[tool.ruff.lint.isort]
+length-sort = true
+lines-between-types = 1
+combine-as-imports = true
